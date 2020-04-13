@@ -1,0 +1,249 @@
+/*COLORS: #5d5c61; #938E94; #7395AE; #557A95; #b1a296; */
+#title {
+  background-color: #7395AE;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding: 8% 6%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #5d5c61;
+}
+
+p {
+  color: #938E94;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fotos-ember {
+  width: 90%;
+  margin-top: 3%;
+}
+
+/* Features section */
+.feature-box {
+  text-align: center;
+  padding: 5% 8%;
+}
+
+.icon {
+  color: #7395AE;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #557A95;
+}
+
+.icon2 {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* Testemonial section */
+#testimonials {
+  text-align: center;
+  background-color: #7395AE;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  padding: 0 15%;
+  width: 85%;
+  margin: 50px;
+}
+
+.carosuel-item {
+  padding: 5% 25%;
+}
+
+#press {
+  padding: 1% 4%;
+  text-align: center;
+  background-color: #7395AE;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 50px;
+}
+
+/* Priceing */
+#priceing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  color: white;
+  font-size: 5rem;
+  line-height: 2;
+  padding: 10%;
+  background-color: #7395AE;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2% 7%;
+  background-color: #5d5c61;
+}
+
+.footer-text {
+  color: #fff;
+  margin: 0;
+}
+
+.footer-icon {
+  color: #fff;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.footer-icon2 {
+  position: absolute;
+  visibility: hidden;
+  color: #fff;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+@media (max-width: 990px) {
+  .elso-h1 {
+    font-size: 4rem;
+  }
+
+  .fotos-ember {
+    width: 75%;
+  }
+
+  .icon {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .icon2 {
+    visibility: visible;
+    position: inherit;
+    color: #7395AE;
+    margin-bottom: 1rem;
+  }
+
+  .icon2:hover {
+    color: #557A95;
+  }
+
+  .Features-Text-H3 {
+    font-size: 3rem;
+  }
+
+  .Features-Text-P {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 3rem;
+  }
+
+  .testimonial-text {
+    font-size: 3rem;
+  }
+
+  .testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  em {
+    font-size: 2rem;
+  }
+
+  .press-logo {
+    width: 25%;
+    margin: 20px 20px 50px;
+  }
+
+  .card-body, .priceing-text {
+    font-size: 2rem;
+  }
+
+  .kartyak {
+    font-size: 3rem;
+  }
+
+  .pricing-column {
+    padding: 5% 15%;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+
+  .footer-text {
+    font-size: 2rem;
+  }
+
+  .footer-icon {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .footer-icon2 {
+    visibility: visible;
+    position: inherit;
+    color: #fff;
+    margin: 50px 0 20px 0;
+    padding: 15px 30px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 2em;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+}
